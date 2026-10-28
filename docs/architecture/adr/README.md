@@ -1,5 +1,1 @@
-
-- ADR-014: workflow state management
-- ADR-015: approval and segregation of duties
-- ADR-016: source processing and amendments
-- ADR-017: audit and evidence
+- `ADR-018-functional-product-design-and-implementation-readiness.md` – makes journeys, detailed screens, fields, permissions, exceptions, runbooks, stories and tests mandatory implementation inputs.
