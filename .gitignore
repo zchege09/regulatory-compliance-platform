@@ -1,0 +1,33 @@
+# Secrets/local settings
+.env
+.env.*
+!.env.example
+**/local.settings.json
+**/appsettings.*.local.json
+*.pfx
+*.pem
+*.key
+
+# .NET
+bin/
+obj/
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# IDE/OS
+.vs/
+.vscode/*.local.json
+.idea/
+.DS_Store
+
+# IaC state / local deployment output
+*.tfstate
+*.tfstate.*
+.whatif/
+
+# Test output
+TestResults/
+playwright-report/
